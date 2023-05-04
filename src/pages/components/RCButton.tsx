@@ -35,7 +35,7 @@ const RCButton = (props: props) => {
         />
         <span
           style={{
-            color: "rgb(255,255,255)",
+            color: "white",
             paddingLeft: "8px",
             fontFamily: "dunggeunmo-bold",
             fontSize: "20px",
