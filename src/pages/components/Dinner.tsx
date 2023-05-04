@@ -32,7 +32,10 @@ const Dinner = () => {
         <Frame
           variant="well"
           className="footer"
-          style={{ fontFamily: "dunggeunmo", fontSize: "18px" }}
+          style={{
+            fontFamily: "dunggeunmo",
+            fontSize: screens.md ? "18px" : "14px",
+          }}
         >
           오늘의 저녁메뉴는 ? {`${key} / ${value}`}
         </Frame>
