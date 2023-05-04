@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import AppLayout from "./components/AppLayout";
 import Recommendation from "./components/Recommendation";
 import RCButton from "./components/RCButton";
-import { ProgressBars } from "./components/ProgressBarMain";
+import ProgressBars from "./components/ProgressBarMain";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
