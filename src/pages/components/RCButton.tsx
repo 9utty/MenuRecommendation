@@ -35,9 +35,9 @@ const RCButton = (props: props) => {
         <span
           style={{
             color: "rgb(255,255,255)",
-            verticalAlign: "middle",
             paddingLeft: "8px",
             fontFamily: "dunggeunmo-bold",
+            fontSize: "17px",
           }}
         >
           메뉴추천
