@@ -3,8 +3,7 @@ import React, { useEffect, useState } from "react";
 interface props {
   func: (bool: boolean) => void;
 }
-
-export function ProgressBars(props: props) {
+const ProgressBars = (props: props) => {
   const [percent, setPercent] = useState(0);
 
   useEffect(() => {
@@ -57,4 +56,6 @@ export function ProgressBars(props: props) {
       </div>
     </div>
   );
-}
+};
+
+export default ProgressBars;
