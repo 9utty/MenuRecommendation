@@ -11,6 +11,7 @@ const RCButton = (props: props) => {
       type="primary"
       style={{
         flexDirection: "row",
+
         background: "transparent",
         paddingTop: "20px",
       }}
@@ -37,7 +38,7 @@ const RCButton = (props: props) => {
             color: "rgb(255,255,255)",
             paddingLeft: "8px",
             fontFamily: "dunggeunmo-bold",
-            fontSize: "17px",
+            fontSize: "20px",
           }}
         >
           메뉴추천
