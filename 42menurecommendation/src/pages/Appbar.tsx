@@ -51,7 +51,8 @@ export function Appbar() {
                   style={{
                     position: "absolute",
                     left: "0",
-                    top: "100%",
+                    bottom: "100%",
+                    width: "30vw",
                   }}
                   onClick={() => setOpen(false)}
                 >
@@ -59,26 +60,36 @@ export function Appbar() {
                     <span role="img" aria-label="👨‍💻">
                       👨‍💻
                     </span>
-                    Profile
+                    <div style={{ fontFamily: "ms_sans_serif" }}>Profile</div>
                   </MenuListItem>
                   <MenuListItem>
                     <span role="img" aria-label="📁">
                       📁
                     </span>
-                    My account
+                    <div
+                      style={{
+                        fontFamily: "ms_sans_serif",
+                      }}
+                    >
+                      GitHub
+                    </div>
                   </MenuListItem>
                   <Separator />
                   <MenuListItem disabled>
                     <span role="img" aria-label="🔙">
                       🔙
                     </span>
-                    Logout
+                    <div style={{ fontFamily: "ms_sans_serif" }}>Logout</div>
                   </MenuListItem>
                 </MenuList>
               )}
             </div>
 
-            <TextInput placeholder="Search..." width={150} />
+            <TextInput
+              placeholder="Search..."
+              width={150}
+              style={{ fontFamily: "ms_sans_serif" }}
+            />
           </Toolbar>
         </Bar>
       </div>
