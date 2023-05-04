@@ -10,7 +10,9 @@ const RCButton = (props: props) => {
     <Button
       type="primary"
       style={{
+        flexDirection: "row",
         background: "transparent",
+        paddingTop: "20px",
       }}
       onClick={props.func}
     >
@@ -33,12 +35,8 @@ const RCButton = (props: props) => {
         <span
           style={{
             color: "rgb(255,255,255)",
-            userSelect: "none",
-            padding: "2px",
-            background: "transparent",
-            display: "inline-block",
             verticalAlign: "middle",
-            marginLeft: "8px",
+            paddingLeft: "8px",
             fontFamily: "dunggeunmo-bold",
           }}
         >
