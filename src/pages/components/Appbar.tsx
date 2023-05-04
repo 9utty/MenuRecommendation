@@ -24,7 +24,7 @@ export default function Appbar() {
   return (
     <>
       <div style={{ bottom: "0px" }}>
-        <Bar style={{ width: "100vw", height: "49px" }}>
+        <Bar style={{ width: "100vw", height: "6vh", zIndex: 1 }}>
           <Toolbar style={{ justifyContent: "space-between" }}>
             <div style={{ position: "relative", display: "inline-block" }}>
               <Button
