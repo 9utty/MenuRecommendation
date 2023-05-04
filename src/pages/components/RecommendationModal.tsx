@@ -65,7 +65,12 @@ const RecommendationModal = () => {
               className="window-title"
               style={{ justifyContent: "space-between", display: "flex" }}
             >
-              <span style={{ fontFamily: "dunggeunmo-bold", fontSize: "22px" }}>
+              <span
+                style={{
+                  fontFamily: "dunggeunmo-bold",
+                  fontSize: screens.md ? "22px" : "15px",
+                }}
+              >
                 메뉴추천
               </span>
               <Button style={{ marginTop: "3px" }} onClick={closeModal}>

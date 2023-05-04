@@ -24,7 +24,7 @@ export default function Appbar() {
   return (
     <>
       <div style={{ bottom: "0px" }}>
-        <Bar style={{ width: "100vw", height: "6vh", zIndex: 1 }}>
+        <Bar style={{ width: "100%", height: "6%", zIndex: 1 }}>
           <Toolbar style={{ justifyContent: "space-between" }}>
             <div style={{ position: "relative", display: "inline-block" }}>
               <Button
@@ -46,7 +46,6 @@ export default function Appbar() {
                     position: "absolute",
                     left: "0",
                     bottom: "100%",
-
                     width: "30vw",
                   }}
                   onClick={() => setOpen(false)}
