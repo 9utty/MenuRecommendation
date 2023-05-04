@@ -42,7 +42,7 @@ const AppLayout = ({ children }: Props) => {
         <div
           style={{
             width: "100%",
-            height: "94%",
+            height: "93.8%",
           }}
         >
           {children}

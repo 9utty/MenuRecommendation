@@ -61,7 +61,9 @@ export function Appbar() {
                     <span role="img" aria-label="👨‍💻">
                       👨‍💻
                     </span>
-                    <div style={{ fontFamily: "dunggeunmo-bold" }}>Profile</div>
+                    <div style={{ fontFamily: "dunggeunmo-bold" }}>
+                      Profile?
+                    </div>
                   </MenuListItem>
                   <MenuListItem>
                     <span role="img" aria-label="📁">
@@ -72,7 +74,7 @@ export function Appbar() {
                         fontFamily: "dunggeunmo-bold",
                       }}
                     >
-                      GitHub
+                      GitHub?
                     </div>
                   </MenuListItem>
                   <Separator />
@@ -80,7 +82,7 @@ export function Appbar() {
                     <span role="img" aria-label="🔙">
                       🔙
                     </span>
-                    <div style={{ fontFamily: "dunggeunmo-bold" }}>Logout</div>
+                    <div style={{ fontFamily: "dunggeunmo-bold" }}>Logout?</div>
                   </MenuListItem>
                 </MenuList>
               )}
