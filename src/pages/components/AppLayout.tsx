@@ -41,8 +41,9 @@ const AppLayout = ({ children }: Props) => {
       <ThemeProvider theme={original}>
         <div
           style={{
-            width: "100%",
-            height: "93.8%",
+            width: "100vw",
+            height: "100vh",
+            zIndex: 2,
           }}
         >
           {children}
