@@ -1,10 +1,14 @@
+import { Grid } from "antd";
 import React, { useState } from "react";
 import { Counter, Frame, Button } from "react95";
+
+const { useBreakpoint } = Grid;
 
 const Dinner = () => {
   const [number, setNumber] = useState(0);
   const [key, setKey] = useState("");
   const [value, setValue] = useState("");
+  const screens = useBreakpoint();
 
   const onClickNumber = () => {
     const randomIndex = Math.floor(Math.random() * DinnerMenu.length);
@@ -22,7 +26,7 @@ const Dinner = () => {
           alignItems: "center",
         }}
       >
-        <Counter size="xl" value={number} />
+        <Counter size={screens.md ? "xl" : "md"} value={number} />
       </div>
       <div style={{ marginTop: "20px", marginBottom: "20px" }}>
         <Frame
