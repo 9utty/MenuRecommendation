@@ -1,11 +1,13 @@
 import React from "react";
 import AppLayout from "./components/AppLayout";
+import {Recommendation }from "./components/Recommendation";
+import RCButton from "./components/RCButton";
 
 const Home = () => {
   return (
     <div>
       <AppLayout>
-        <div>굿</div>
+        <Recommendation />
       </AppLayout>
     </div>
   );
