@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Button, Image } from "antd";
-import { Recommendation } from "./Recommendation";
 
 interface props {
   func: () => void;
@@ -37,10 +36,10 @@ const RCButton = (props: props) => {
             userSelect: "none",
             padding: "2px",
             background: "transparent",
-            textDecoration: "underline",
             display: "inline-block",
             verticalAlign: "middle",
             marginLeft: "8px",
+            fontFamily: "dunggeunmo-bold",
           }}
         >
           메뉴추천

@@ -18,13 +18,7 @@ const Wrapper = styled.div`
   background: ${({ theme }) => theme.desktopBackground};
 `;
 
-export default {
-  title: "Environment/AppBar",
-  component: AppBar,
-  decorators: [(story) => <Wrapper>{story()}</Wrapper>],
-} as ComponentMeta<typeof AppBar>;
-
-export function Appbar() {
+export default function Appbar() {
   const [open, setOpen] = useState(false);
 
   return (
@@ -57,7 +51,11 @@ export function Appbar() {
                   }}
                   onClick={() => setOpen(false)}
                 >
-                  <MenuListItem>
+                  <MenuListItem
+                    onClick={() =>
+                      (window.location.href = "https://github.com/9utty")
+                    }
+                  >
                     <span role="img" aria-label="👨‍💻">
                       👨‍💻
                     </span>
@@ -65,7 +63,12 @@ export function Appbar() {
                       Profile?
                     </div>
                   </MenuListItem>
-                  <MenuListItem>
+                  <MenuListItem
+                    onClick={() =>
+                      (window.location.href =
+                        "https://github.com/9utty/MenuRecommendation")
+                    }
+                  >
                     <span role="img" aria-label="📁">
                       📁
                     </span>

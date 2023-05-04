@@ -12,7 +12,7 @@ import {
   AppBar,
   Frame,
 } from "react95";
-import { Appbar } from "./Appbar";
+import Appbar from "./Appbar";
 
 const { Footer } = Layout;
 type Props = {
