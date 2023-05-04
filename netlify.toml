@@ -1,7 +1,5 @@
 #https://stackoverflow.com/questions/58065603/netlify-renders-404-on-page-refresh-using-react-and-react-router
-[[plugins]]
-    package = "@netlify/plugin-nextjs"
 [[redirects]]
   from = "/*"
-  to = "/"
+  to = "/index.html"
   status = 200
