@@ -40,18 +40,9 @@ const Home = () => {
 
   return (
     <div>
-      <Background
-        style={{
-          marginLeft: -8,
-          marginRight: -3,
-          marginTop: -8,
-          marginBottom: -10,
-        }}
-      >
-        <AppLayout>
-          <div>굿</div>
-        </AppLayout>
-      </Background>
+      <AppLayout>
+        <div>굿</div>
+      </AppLayout>
     </div>
   );
 };
