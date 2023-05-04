@@ -39,6 +39,7 @@ const RCButton = (props: props) => {
             paddingLeft: "8px",
             fontFamily: "dunggeunmo-bold",
             fontSize: "20px",
+            zIndex: 0,
           }}
         >
           메뉴추천
